@@ -8,7 +8,7 @@ enum layers {
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    /* Base (qwerty) layer 
+    /* Base (qwerty) layer
      * ,-----------------------------------------------------------------------------------------.
      * | Esc |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |   Bkspc   |
      * |-----------------------------------------------------------------------------------------+
@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_LALT, KC_LGUI, KC_SPC, KC_SPC, KC_SPC, KC_RGUI, MO(_FN), KC_LEFT, KC_DOWN, KC_RGHT
     ),
 
-    /* Fn layer 
+    /* Fn layer
      * ,-----------------------------------------------------------------------------------------.
      * |  `  | F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10 | F11 | F12 |    Del    |
      * |-----------------------------------------------------------------------------------------+
